@@ -1,11 +1,11 @@
 class AppearanceNotify < Formula
   desc "macOS daemon that executes hooks on system appearance changes"
   homepage "https://github.com/odysseus0/appearance-notify"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
-  url "https://github.com/odysseus0/appearance-notify/releases/download/v0.2.0/appearance-notify-apple-darwin.tar.gz"
-  sha256 "fe805fa107bfbe6739190b94287199162d035acf7f00f25597b398b8c1265058" # universal
+  url "https://github.com/odysseus0/appearance-notify/releases/download/v0.2.1/appearance-notify-apple-darwin.tar.gz"
+  sha256 "07bd507c669db2e3eb3772d15a4ca7fc0f979c0de7dbc59a6c829e65964cd1c4" # universal
 
   depends_on macos: :sonoma
 
